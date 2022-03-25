@@ -20,11 +20,22 @@
     </div>
     
     
-    <h2 style="color:white" id="box2">This script will make your day <span id="typed_h2" style="color: red"></span></h2>
+    <h2 style="color:white" id="box2" class="fade-in-text">This script will make your day <span id="typed_h2" style="color: red"></span></h2>
+    <h3 style="color:white" id="box2" class="fade-in-text">Download via <span id="typed_h3" style="color: red"></span></h2></h3>
     
     <script>
       new Typed('#typed_h2',{
-        strings : ['Faster','Cooler', 'More Fun', 'easier'],
+        strings : ['Faster','Better', 'More Fun', 'Easier'],
+        typeSpeed : 90,
+        delaySpeed : 90,
+        backSpeed : 90,
+        loop : true
+      });
+    </script>
+
+    <script>
+      new Typed('#typed_h3',{
+        strings : ['<a href="https://github.com/tysudo/tysudo.github.io/archive/refs/heads/main.zip">Github</a>', '<a href="https://www.mediafire.com/file/032o1w6a5jhqg2f/Help-Script-2.0.rar/file">MediaFire</a>', '<a href="https://u.pcloud.link/publink/show?code=XZ9Xv0VZmRNvpcHGn3h0119CMlHmcyeyd6IX">PCloud</a></a>'],
         typeSpeed : 90,
         delaySpeed : 90,
         backSpeed : 90,
