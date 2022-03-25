@@ -65,4 +65,10 @@ body {
     30% {opacity:0;}
     100% {opacity:1;}
   }
+
+  a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
   
