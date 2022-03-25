@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%
+    
+    
+  }
+#box2 {    
+    color: white
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+    
+}
+body {
+    background-color: black
+}
+
+#h1m {
+    color: white
+}
+
+#h2m {
+    color: white
+}
+
+
+  
